@@ -1,0 +1,5 @@
+resume.json
+npm-debug.log
+*.html
+public/
+node_modules/
