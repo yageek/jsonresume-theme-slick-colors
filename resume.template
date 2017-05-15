@@ -28,27 +28,7 @@
 					<h1>{{name}}</h1>
 					<h2>{{label}}</h2>
 					<section id="basics">
-						<div class="contact">
-							{{#if website}}
-							<div class="website">
-								<icon class="entypo-compass"></icon>
-								<a href="{{website}}">{{website}}</a>
-							</div>
-							{{/if}}
-							{{#if email}}
-							<div class="email">
-								<icon class="entypo-email"></icon>
-								<a href="mailto:{{email}}">{{email}}</a>
-							</div>
-							{{/if}}
-							{{#if phone}}
-							<div class="phone">
-								<icon class="entypo-phone"></icon>
-								{{phone}}
-							</div>
-							{{/if}}
-						</div>
-						{{#location}}
+					    {{#location}}
 						<section id="location">
 							{{#if address}}
 							<icon class="entypo-home"></icon>
@@ -71,6 +51,26 @@
 							{{/if}}
 						</section>
 						{{/location}}
+						<div class="contact">
+							{{#if phone}}
+							<div class="phone">
+								<icon class="entypo-phone"></icon>
+								{{phone}}
+							</div>
+							{{/if}}
+							{{#if website}}
+							<div class="website">
+								<icon class="entypo-compass"></icon>
+								<a href="{{website}}">{{website}}</a>
+							</div>
+							{{/if}}
+							{{#if email}}
+							<div class="email">
+								<icon class="entypo-email"></icon>
+								<a href="mailto:{{email}}">{{email}}</a>
+							</div>
+							{{/if}}
+						</div>
 						{{#if profiles.length}}
 						<section id="profiles">
 							{{#each profiles}}
