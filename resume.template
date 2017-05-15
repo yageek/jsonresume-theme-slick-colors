@@ -37,7 +37,7 @@
 							{{/if}}
 							{{#if email}}
 							<div class="email">
-								<icon class="entypo-mail"></icon>
+								<icon class="entypo-email"></icon>
 								<a href="mailto:{{email}}">{{email}}</a>
 							</div>
 							{{/if}}
@@ -79,7 +79,7 @@
 								<a href="{{url}}">
 								{{/if}}
 								{{#if network}}
-								<icon class="entypo-{{class}}"></icon>
+								<icon class="entypo-{{class}}-with-circle"></icon>
 								{{/if}}
 								{{#if url}}
 								</a>
